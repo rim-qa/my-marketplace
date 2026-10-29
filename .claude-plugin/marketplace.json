@@ -1,0 +1,11 @@
+{
+  "name": "my-marketplace",
+  "owner": { "name": "rim-qa" },
+  "plugins": [
+    {
+      "name": "weekly-sales-report",
+      "source": "./plugins/weekly-sales-report",
+      "description": "주간 매출 리포트 자동 생성·슬랙 발송"
+    }
+  ]
+}
